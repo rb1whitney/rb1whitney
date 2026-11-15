@@ -45,13 +45,6 @@ Method, answer keys, limits and what not to claim: [FINDINGS.md](https://github.
 
 Related code: [vault_controller_example](https://github.com/rb1whitney/vault_controller_example) is the original shell version; [vault_controller](https://github.com/rb1whitney/vault_controller) is the current implementation.
 
-## Writing
-
-- Nov 2026: [Your Terraform Ports. Your Secrets Don't.](https://medium.com/@rb1whitney/your-terraform-ports-your-secrets-dont-2cff14cf4886)
-- Oct 2026: [One Platform Failed Our App Teams. The Other Failed Us.](https://medium.com/@rb1whitney/one-platform-failed-our-app-teams-the-other-failed-us-97cfcbd92f0b)
-- Sep 2026: [Taming Multi-Agent Workflows](https://medium.com/@rb1whitney/taming-multi-agent-workflows-7eec951375cf)
-- Sep 2026: [Stop Dumping Raw Code into LLMs: Why ASTs lead to Scalable AI Agents](https://medium.com/@rb1whitney/stop-dumping-raw-code-into-llms-why-semantic-graphs-lead-to-scalable-ai-agents-707c9c3220b0)
-
 ## Background
 
 - Terraform Enterprise "Standard Environment": consolidated 20+ repositories into a modular model, cutting regional launch time from 12 weeks to 2, and migrated 5,000+ states to enable cross-region provisioning.
