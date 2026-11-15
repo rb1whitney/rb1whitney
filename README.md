@@ -10,7 +10,7 @@ Three themes. Each has an article that states the claim and code that shows it.
 
 | Theme | Claim | Article | Code |
 |---|---|---|---|
-| Deterministic context for agents | Give an agent a structural map of the code (AST and graph), not raw files. | [Stop Dumping Raw Code into LLMs](https://medium.com/@rb1whitney/stop-dumping-raw-code-into-llms-why-semantic-graphs-lead-to-scalable-ai-agents-707c9c3220b0) | [agentic-project-factory](https://github.com/rb1whitney/agentic-project-factory) |
+| Deterministic context for agents | Give an agent a structural map of the code (AST and graph), not raw files. | [Stop Dumping Raw Code into LLMs](https://medium.com/@rb1whitney/stop-dumping-raw-code-into-llms-why-semantic-graphs-lead-to-scalable-ai-agents-707c9c3220b0) | [ast-context-map](https://github.com/rb1whitney/ast-context-map) |
 | Portable agents across harnesses | One canonical agent definition, compiled per harness. Harness defaults, not file formats, are the real portability risk. | [Taming Multi-Agent Workflows](https://medium.com/@rb1whitney/taming-multi-agent-workflows-7eec951375cf) | [agentic-project-factory](https://github.com/rb1whitney/agentic-project-factory) |
 | Platform boundaries by responsibility | App teams declare what they need. The platform owns how it is built. | [One Platform Failed Our App Teams. The Other Failed Us.](https://medium.com/@rb1whitney/one-platform-failed-our-app-teams-the-other-failed-us-97cfcbd92f0b) | [cloud-boot-app](https://github.com/rb1whitney/cloud-boot-app) |
 
@@ -18,6 +18,7 @@ Three themes. Each has an article that states the claim and code that shows it.
 
 | Repo | What it is |
 |---|---|
+| [ast-context-map](https://github.com/rb1whitney/ast-context-map) | Structural map of a codebase for coding agents: tree-sitter AST graph and queries, plus Kubernetes and Terraform topology graphs. Reproducible size benchmark and CI. |
 | [agentic-project-factory](https://github.com/rb1whitney/agentic-project-factory) | Multi-agent swarm for infrastructure and cloud work. Skills, agent definitions, AST and graph tooling, and governance rules in one hub. |
 | [nit-fabric](https://github.com/rb1whitney/nit-fabric) | Audits AWS and GCP connectivity: CIDR overlaps, VPC and BGP topology, security drift. Z3 solver for formal checks. |
 | [cloud-boot-app](https://github.com/rb1whitney/cloud-boot-app) | Reference Java 21 / Spring Boot service on Kubernetes, managed with Terraform, Crossplane and Argo CD. |
