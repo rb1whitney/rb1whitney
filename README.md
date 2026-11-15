@@ -4,6 +4,9 @@ Director of Platform Automation. I build cloud platforms, and the tooling that l
 
 [Writing (Medium)](https://medium.com/@rb1whitney) | [LinkedIn](https://www.linkedin.com/in/richard-whitney-0393b11a/)
 
+[![ast-context-map tests](https://img.shields.io/github/actions/workflow/status/rb1whitney/ast-context-map/test.yml?branch=main&label=ast-context-map%20tests&style=flat-square)](https://github.com/rb1whitney/ast-context-map/actions/workflows/test.yml) [![vault_controller CI](https://img.shields.io/github/actions/workflow/status/rb1whitney/vault_controller/ci.yml?branch=main&label=vault_controller%20CI&style=flat-square)](https://github.com/rb1whitney/vault_controller/actions/workflows/ci.yml) [![cloud-boot-app CI](https://img.shields.io/github/actions/workflow/status/rb1whitney/cloud-boot-app/ci.yml?branch=master&label=cloud-boot-app%20CI&style=flat-square)](https://github.com/rb1whitney/cloud-boot-app/actions/workflows/ci.yml) [![factory lint](https://img.shields.io/github/actions/workflow/status/rb1whitney/agentic-project-factory/lint.yml?branch=master&label=factory%20lint&style=flat-square)](https://github.com/rb1whitney/agentic-project-factory/actions/workflows/lint.yml)
+[![Targeted query savings](https://img.shields.io/badge/targeted_query_savings-97.6%25_on_sample-2ea043?style=flat-square)](https://github.com/rb1whitney/ast-context-map#measured) [![Medium articles](https://img.shields.io/badge/Medium_articles-4-12100E?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@rb1whitney) [![PRs merged in own repos](https://img.shields.io/badge/PRs_merged_own_repos-84-8957e5?style=flat-square)](https://github.com/pulls?q=is%3Apr+author%3Arb1whitney+is%3Amerged)
+
 ## What I work on
 
 Three themes. Each has an article that states the claim and code that shows it.
