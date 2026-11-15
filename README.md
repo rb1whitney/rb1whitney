@@ -44,8 +44,3 @@ Method, answer keys, limits and what not to claim: [FINDINGS.md](https://github.
 - [Unlocking the Cloud Operating Model with Clover](https://www.hashicorp.com/en/events/webinars/unlocking-the-cloud-operating-model-with-clover) (HashiCorp webinar)
 
 Related code: [vault_controller_example](https://github.com/rb1whitney/vault_controller_example) is the original shell version; [vault_controller](https://github.com/rb1whitney/vault_controller) is the current implementation.
-
-## Background
-
-- Terraform Enterprise "Standard Environment": consolidated 20+ repositories into a modular model, cutting regional launch time from 12 weeks to 2, and migrated 5,000+ states to enable cross-region provisioning.
-- Vault Enterprise: globally dispersed high-availability clusters (see the talks above).
