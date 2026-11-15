@@ -5,11 +5,11 @@ Director of Platform Automation. I build cloud platforms, and the tooling that l
 [Writing (Medium)](https://medium.com/@rb1whitney) | [LinkedIn](https://www.linkedin.com/in/richard-whitney-0393b11a/)
 
 [![ast-context-map tests](https://img.shields.io/github/actions/workflow/status/rb1whitney/ast-context-map/test.yml?branch=main&label=ast-context-map%20tests&style=flat-square)](https://github.com/rb1whitney/ast-context-map/actions/workflows/test.yml) [![vault_controller CI](https://img.shields.io/github/actions/workflow/status/rb1whitney/vault_controller/ci.yml?branch=main&label=vault_controller%20CI&style=flat-square)](https://github.com/rb1whitney/vault_controller/actions/workflows/ci.yml) [![cloud-boot-app CI](https://img.shields.io/github/actions/workflow/status/rb1whitney/cloud-boot-app/ci.yml?branch=master&label=cloud-boot-app%20CI&style=flat-square)](https://github.com/rb1whitney/cloud-boot-app/actions/workflows/ci.yml) [![factory lint](https://img.shields.io/github/actions/workflow/status/rb1whitney/agentic-project-factory/lint.yml?branch=master&label=factory%20lint&style=flat-square)](https://github.com/rb1whitney/agentic-project-factory/actions/workflows/lint.yml)
-[![Targeted query savings](https://img.shields.io/badge/targeted_query_savings-97.6%25_on_sample-2ea043?style=flat-square)](https://github.com/rb1whitney/ast-context-map#measured) [![Medium articles](https://img.shields.io/badge/Medium_articles-4-12100E?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@rb1whitney) [![PRs merged in own repos](https://img.shields.io/badge/PRs_merged_own_repos-84-8957e5?style=flat-square)](https://github.com/pulls?q=is%3Apr+author%3Arb1whitney+is%3Amerged)
+[![Research](https://img.shields.io/badge/research-18_findings,_115_runs-2ea043?style=flat-square)](https://github.com/rb1whitney/ast-context-map/blob/main/research/graph-of-graphs/FINDINGS.md) [![Medium articles](https://img.shields.io/badge/Medium_articles-4-12100E?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@rb1whitney) [![PRs merged in own repos](https://img.shields.io/badge/PRs_merged_own_repos-84-8957e5?style=flat-square)](https://github.com/pulls?q=is%3Apr+author%3Arb1whitney+is%3Amerged)
 
 ## What I work on
 
-Three themes. Each has an article that states the claim and code that shows it.
+Four themes. Each has an article that states the claim and code that shows it.
 
 | Theme | Claim | Article | Code |
 |---|---|---|---|
@@ -28,19 +28,15 @@ Three themes. Each has an article that states the claim and code that shows it.
 | [cloud-boot-app](https://github.com/rb1whitney/cloud-boot-app) | Reference Java 21 / Spring Boot service on Kubernetes, managed with Terraform, Crossplane and Argo CD. |
 | [vault_controller](https://github.com/rb1whitney/vault_controller) | Idempotent HashiCorp Vault state controller with built-in Transit Engine decryption for secure infrastructure as code. |
 
-## In progress
+## Current research
 
-Rewriting agent skills as a typed contract plus a concrete action template, then measuring tokens and LLM calls against the prose originals. Results and method will be published here with the code.
+Do semantic code graphs help coding agents, or does plain search win? I measured it on public repositories with a small model (115 agent runs, $1.15 in total).
 
-## Background
+- Search was cheaper than the first graph tool, which needed 36 turns against 20.
+- A single `closure` query with a coverage footer cost $0.004 per run against $0.013 for search, at F1 0.84 against 0.94.
+- Agents answered from the graph and rarely verified, so an unverified graph answer is a risk.
 
-Nineteen years in infrastructure and site reliability; now directing platform automation teams.
-
-- **Terraform Enterprise "Standard Environment":** consolidated 20+ repositories into a modular model and cut regional market launch time from 12 weeks to 2. Migrated 5,000+ Terraform states to enable cross-region provisioning.
-- **Vault Enterprise:** globally dispersed high-availability clusters (talks below).
-- **AI enablement:** CLI tooling and deterministic playbooks, 84% adoption across 400+ engineers.
-- **Stack:** Python, Java, Go, Bash; GCP and AWS; Terraform, Vault, Kubernetes; Claude Code, Gemini CLI, Codex, Antigravity.
-- **Certifications:** AWS Solutions Architect Associate (2018), AWS Developer Associate (2019), HashiCorp Terraform Associate and Vault Associate (2020).
+Method, answer keys, limits and what not to claim: [FINDINGS.md](https://github.com/rb1whitney/ast-context-map/blob/main/research/graph-of-graphs/FINDINGS.md).
 
 ## Talks
 
@@ -55,3 +51,8 @@ Related code: [vault_controller_example](https://github.com/rb1whitney/vault_con
 - Oct 2026: [One Platform Failed Our App Teams. The Other Failed Us.](https://medium.com/@rb1whitney/one-platform-failed-our-app-teams-the-other-failed-us-97cfcbd92f0b)
 - Sep 2026: [Taming Multi-Agent Workflows](https://medium.com/@rb1whitney/taming-multi-agent-workflows-7eec951375cf)
 - Sep 2026: [Stop Dumping Raw Code into LLMs: Why ASTs lead to Scalable AI Agents](https://medium.com/@rb1whitney/stop-dumping-raw-code-into-llms-why-semantic-graphs-lead-to-scalable-ai-agents-707c9c3220b0)
+
+## Background
+
+- Terraform Enterprise "Standard Environment": consolidated 20+ repositories into a modular model, cutting regional launch time from 12 weeks to 2, and migrated 5,000+ states to enable cross-region provisioning.
+- Vault Enterprise: globally dispersed high-availability clusters (see the talks above).
